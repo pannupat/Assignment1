@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-panel, .right-panel {
+    width: 45%;
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid black;
+}
+h3{
+    margin-right: 70px;
+}
+label{
+    margin-right: 45px;
+}
+input [type="text"]{
+    border-radius: 10px;
+}
+button{
+    margin-left: 250px;
+}
